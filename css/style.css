@@ -1,0 +1,89 @@
+/* General style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+
+/* header section style */
+#header{
+    height: 10vh;
+    background: white;
+}
+.nev-container{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo span{
+    color: #ff42a5;
+}
+.logo img,h1{
+    cursor: pointer;
+}
+.nav-content ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.nav-content ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+#follow-us-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    background: rgba(11, 2, 35, 0.10);
+}
+#follow-us-btn span{
+    padding-right: 5px;
+}
+#follow-us-btn span a{
+    cursor: pointer;
+}
+#follow-us-btn #btn-logo1,#btn-logo2{
+    padding-left: 10px;
+}
+#follow-us-btn #btn-logo1{
+    color: red;
+}
+
+
+
+
+/* main section style */
+
+/* footer section style */
+
+
+/* responsive design (mobile)*/
+
+
+
+
+/* responsive design (tabet)*/

@@ -1,0 +1,19 @@
+/* responsive design (mobile)*/
+@media screen and (max-width:425px) {
+    .nev-container{
+        flex-direction: column;
+    }
+    .nav-content ul{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+}
+
+
+
+/* responsive design (tabet)*/
+@media screen and (max-width:768px) {
+    .nev-container{
+        margin: 30px 50px;
+    }
+}
