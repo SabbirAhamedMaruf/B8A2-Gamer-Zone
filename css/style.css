@@ -11,6 +11,7 @@ body{
 
 
 /* header section style */
+/* nav design */
 #header{
     height: 10vh;
     background: white;
@@ -73,10 +74,96 @@ body{
     color: red;
 }
 
-
-
-
 /* main section style */
+/* banner design */
+#banner-section{
+    background-color: rgba(249, 72, 178,0.1);
+}
+#banner{
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-content h1{
+    text-align: center;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#banner-content-paragraph{
+    color: #534C64;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+#p_content1 i,#p_content2 i{
+    color: #F948B2;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+#p_content3 i{
+    color: #F948B2;
+    padding-right: 5px;
+}
+.content-button #btn1{
+    margin-top: 20px;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background:#F948B2;
+}
+.content-button #btn1>a{
+    text-decoration: none;
+    color: white;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.content-button #btn2{
+    margin-top: 20px;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+.content-button #btn2>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
 /* footer section style */
 

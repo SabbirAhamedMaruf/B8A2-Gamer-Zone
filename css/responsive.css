@@ -1,5 +1,16 @@
+
+
+
+
 /* responsive design (mobile)*/
+
 @media screen and (max-width:425px) {
+
+    /* Header section style */
+    /* nav design */
+    #header{
+        height: 220px;
+    }
     .nev-container{
         flex-direction: column;
     }
@@ -7,13 +18,46 @@
         margin-top: 30px;
         flex-direction: column;
     }
+
+
+    /* Main section style */
+    /* banner design */
+    #banner{
+        margin: 0px auto;
+        width: 100vw;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin: 50px 0px;
+    }
+    .banner-img img{
+        margin-left:10%;
+        width: 80%;
+    }
 }
 
-
-
 /* responsive design (tabet)*/
+
 @media screen and (max-width:768px) {
+
+    /* Header section style */
+    /* nav design */
     .nev-container{
         margin: 30px 50px;
+    }
+
+    /* Main section style */
+    /* banner design */
+    #banner{
+        margin: 20px auto;
+        width: 100vw;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin: 50px 0px;
+    }
+    .banner-img img{
+        margin-left:10%;
+        width: 80%;
     }
 }
