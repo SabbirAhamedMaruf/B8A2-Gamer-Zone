@@ -1,5 +1,71 @@
+/* responsive design (tabet)*/
+
+@media screen and (max-width:768px) {
+
+    /* Header section style */
+    /* nav design */
+    .nev-container{
+        margin: 30px 50px;
+    }
+
+    /* Main section style */
+    /* banner design */
+    #banner{
+        margin: 0px auto;
+        width: 100vw;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin: 50px 0px;
+    }
+    .banner-img img{
+        margin-left:10%;
+        width: 80%;
+    }
+
+    /* gamers section */
+    #gamers{
+        width: 100vw;
+        flex-direction: column;
+    }
+    #gamers-section{
+        padding-top:10px;
+        background-color: rgba(249, 72, 178,0.1);
+    }
+    .gamers-img img{
+        width: 80vw;
+    }
+    #gamers-section .gamers-content h1{
+        text-align: center;
+    }
+    #gamers-section .gamers-content p{
+        width: 80vw;
+        text-align: justify;
+    }
+    #gamers-section .gamers-content button{
+        margin-top: 20px;
+        left: 35%;
+    }
+    #gamers-section .gamers-content #gamers-content-p2{
+        text-align: center;
+        left: 0;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+    }
+    #gamers-section .gamers-content h3{ 
+        text-align: center;
+        width: 70vw;
+        font-size: 1rem;
+    }
 
 
+
+
+
+    
+}
 
 
 /* responsive design (mobile)*/
@@ -27,37 +93,66 @@
         width: 100vw;
         flex-direction: column-reverse;
     }
-    .banner-content{
-        margin: 50px 0px;
-    }
     .banner-img img{
-        margin-left:10%;
-        width: 80%;
+        margin: 0 auto;
+        width: 80vw;
     }
-}
-
-/* responsive design (tabet)*/
-
-@media screen and (max-width:768px) {
-
-    /* Header section style */
-    /* nav design */
-    .nev-container{
-        margin: 30px 50px;
+    .content-button{
+        margin-left: 10px;
     }
 
-    /* Main section style */
-    /* banner design */
-    #banner{
-        margin: 20px auto;
+    /* gamers section */
+    #gamers{
         width: 100vw;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
-    .banner-content{
-        margin: 50px 0px;
+    #gamers-section{
+        padding-top:10px;
+        background-color: rgba(249, 72, 178,0.1);
     }
-    .banner-img img{
-        margin-left:10%;
-        width: 80%;
+    .gamers-img img{
+        width: 80vw;
     }
+    #gamers-section .gamers-content h1{
+        text-align: center;
+    }
+    #gamers-section .gamers-content p{
+        width: 80vw;
+        text-align: justify;
+    }
+    #gamers-section .gamers-content button{
+        margin-top: 20px;
+        left: 20%;
+    }
+    #gamers-section .gamers-content #gamers-content-p2{
+        text-align: center;
+        left: 0;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+    }
+    #gamers-section .gamers-content h3{ 
+        font-size: 1rem;
+        
+    }
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
